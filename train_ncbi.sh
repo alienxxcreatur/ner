@@ -1,4 +1,4 @@
-export MODEL=bert-base-cased
+export MODEL=xlnet-large-cased
 epoch=20
 lr=5e-5
 wis=1qq3qq5qq7
