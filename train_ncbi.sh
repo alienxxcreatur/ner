@@ -19,8 +19,8 @@ CUDA_VISIBLE_DEVICES=0 python run_hgn.py \
   --learning_rate ${lr} \
   --warmup_proportion=0.1 \
   --train_batch_size=16 \
-  --use_bilstm True \  # اضافه کردن مقدار True به پارامتر use_bilstm
-  --use_multiple_window \
+  --use_bilstm True \  
+  --use_multiple_window True \
   --windows_list=${wis} \
   --connect_type=${connect_type} \
   --use_dconv \
