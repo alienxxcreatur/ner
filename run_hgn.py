@@ -29,7 +29,7 @@ from transformers import (
     AutoTokenizer,
     get_linear_schedule_with_warmup,
 )
-from transformers.optimization import AdamW
+from torch.optim import AdamW
 from transformers import PreTrainedModel, AutoModel, AutoConfig
 
 from torch import nn
