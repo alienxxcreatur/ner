@@ -5,7 +5,7 @@ wis=1qq3qq5qq7
 data_type=ncbi
 connect_type=dot-att
 
-CUDA_VISIBLE_DEVICES=0 python /content/hgn_project/run_hgn.py \
+CUDA_VISIBLE_DEVICES=0 python run_hgn.py \
   --train_data_dir=/content/hgn_project/data/$data_type/train_merge.txt \
   --dev_data_dir=/content/hgn_project/data/$data_type/dev.txt \
   --test_data_dir=/content/hgn_project/data/$data_type/test.txt \
