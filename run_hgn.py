@@ -598,8 +598,9 @@ def main():
     #####
     parser.add_argument(
         "--use_bilstm",
-        default=True,
-        help="Set this flag if you are using an uncased model.",
+        action="store_true",
+        default=False,
+        help="Whether to use BiLSTM (enable with flag).",
     )
 
     parser.add_argument(
@@ -609,8 +610,9 @@ def main():
     )
     parser.add_argument(
         "--use_multiple_window",
-        default=True,
-        help="Set this flag if you are using an multiple.",
+        action="store_true",
+        default=False,
+        help="Enable multiple window mode (use flag to enable).",
     )
 
     parser.add_argument(
