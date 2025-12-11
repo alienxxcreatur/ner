@@ -19,10 +19,9 @@ CUDA_VISIBLE_DEVICES=0 python run_hgn.py \
   --learning_rate ${lr} \
   --warmup_proportion=0.1 \
   --train_batch_size=16 \
-  --use_bilstm True \  
+  --use_bilstm True \
   --use_multiple_window True \
-  --windows_list=${wis} \
-  --use_multiple_window True \
+  --windows_list="${wis}" \
   --connect_type=${connect_type} \
   --use_dconv \
   --use_gate
