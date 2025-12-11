@@ -1,0 +1,31 @@
+id	original_sentence	entities	paraphrase
+0	Identification of APC2 , a homologue of the adenomatous polyposis coli tumour suppressor .	adenomatous polyposis coli tumour	
+1	The adenomatous polyposis coli ( APC ) tumour - suppressor protein controls the Wnt signalling pathway by forming a complex with glycogen synthase kinase 3beta ( GSK - 3beta ) , axin / conductin and betacatenin .	adenomatous polyposis coli ( APC ) tumour	
+2	Complex formation induces the rapid degradation of betacatenin .		
+3	In colon carcinoma cells , loss of APC leads to the accumulation of betacatenin in the nucleus , where it binds to and activates the Tcf - 4 transcription factor ( reviewed in [ 1 ] [ 2 ] ) .	colon carcinoma	
+4	Here , we report the identification and genomic structure of APC homologues .		
+5	Mammalian APC2 , which closely resembles APC in overall domain structure , was functionally analyzed and shown to contain two SAMP domains , both of which are required for binding to conductin .		
+6	Like APC , APC2 regulates the formation of active betacatenin - Tcf complexes , as demonstrated using transient transcriptional activation assays in APC - / - colon carcinoma cells .	colon carcinoma	
+7	Human APC2 maps to chromosome 19p13 .		
+8	3 .		
+9	APC and APC2 may therefore have comparable functions in development and cancer .	cancer	
+10	A common MSH2 mutation in English and North American HNPCC families : origin , phenotypic expression , and sex specific differences in colorectal cancer .	HNPCC|||colorectal cancer	
+11	The frequency , origin , and phenotypic expression of a germline MSH2 gene mutation previously identified in seven kindreds with hereditary non - polyposis cancer syndrome ( HNPCC ) was investigated .	hereditary non - polyposis cancer syndrome|||HNPCC	
+12	The mutation ( A - - > T at nt943 + 3 ) disrupts the 3 splice site of exon 5 leading to the deletion of this exon from MSH2 mRNA and represents the only frequent MSH2 mutation so far reported .		
+13	Although this mutation was initially detected in four of 33 colorectal cancer families analysed from eastern England , more extensive analysis has reduced the frequency to four of 52 ( 8 % ) English HNPCC kindreds analysed .	colorectal cancer|||HNPCC	
+14	In contrast , the MSH2 mutation was identified in 10 of 20 ( 50 % ) separately identified colorectal families from Newfoundland .	colorectal	
+15	To investigate the origin of this mutation in colorectal cancer families from England ( n = 4 ) , Newfoundland ( n = 10 ) , and the United States ( n = 3 ) , haplotype analysis using microsatellite markers linked to MSH2 was performed .	colorectal cancer	
+16	Within the English and US families there was little evidence for a recent common origin of the MSH2 splice site mutation in most families .		
+17	In contrast , a common haplotype was identified at the two flanking markers ( CA5 and D2S288 ) in eight of the Newfoundland families .		
+18	These findings suggested a founder effect within Newfoundland similar to that reported by others for two MLH1 mutations in Finnish HNPCC families .	HNPCC	
+19	We calculated age related risks of all , colorectal , endometrial , and ovarian cancers in nt943 + 3 A - - > T MSH2 mutation carriers ( n = 76 ) for all patients and for men and women separately .	colorectal , endometrial , and ovarian cancers	
+20	For both sexes combined , the penetrances at age 60 years for all cancers and for colorectal cancer were 0 .	cancers|||colorectal cancer	
+21	86 and 0 .		
+22	57 , respectively .		
+23	The risk of colorectal cancer was significantly higher ( p < 0 . 01 ) in males than females ( 0 . 63 v 0 . 30 and 0 . 84 v 0 . 44 at ages 50 and 60 years , respectively ) .	colorectal cancer	
+24	For females there was a high risk of endometrial cancer ( 0 . 5 at age 60 years ) and premenopausal ovarian cancer ( 0 . 2 at 50 years ) .	endometrial cancer|||premenopausal ovarian cancer	
+25	These intersex differences in colorectal cancer risks have implications for screening programmes and for attempts to identify colorectal cancer susceptibility modifiers .	colorectal cancer|||colorectal cancer	
+26	Age of onset in Huntington disease : sex specific influence of apolipoprotein E genotype and normal CAG repeat length .	Huntington disease	
+27	Age of onset ( AO ) of Huntington disease ( HD ) is known to be correlated with the length of an expanded CAG repeat in the HD gene .	Huntington disease|||HD|||HD	
+28	Apolipoprotein E ( APOE ) genotype , in turn , is known to influence AO in Alzheimer disease , rendering the APOE gene a likely candidate to affect AO in other neurological diseases too .	Alzheimer disease|||neurological diseases	
+29	We therefore determined APOE genotype and normal CAG repeat length in the HD gene for 138 HD patients who were previously analysed with respect to CAG repeat length .	HD|||HD	
