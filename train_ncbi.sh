@@ -18,7 +18,7 @@ connect_type=dot-att
     --gpu_id 0 \
     --learning_rate ${lr} \
     --warmup_proportion=0.1 \
-    --train_batch_size=32 \
+    --train_batch_size=16 \
     --use_bilstm \
     --use_multiple_window \
     --windows_list=${wis} \
