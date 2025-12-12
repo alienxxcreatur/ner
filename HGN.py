@@ -72,7 +72,8 @@ class HGNER(nn.Module):
         self.windows_list = windows_list
         self.connect_type = args.connect_type
         connect_type = args.connect_type
-        self.d_model = args.d_model
+        # Use the actual hidden size from the BERT config, not the hardcoded value
+        self.d_model = config.hidden_size
         self.num_labels = num_labels
 
         #-----------------贾祥星----7.24-----动态卷积------
@@ -82,7 +83,10 @@ class HGNER(nn.Module):
 
         self.d_conv = Dynamic_conv1d(in_planes=args.max_seq_length, out_planes=args.max_seq_length, kernel_size=5, ratio=0.25, padding=2)
 
-        self.winows_linear = nn.Linear(768*5,768)
+        # Calculate the input size to winows_linear based on the number of windows
+        # When concatenating all windows + original sequence, we get (len(windows_list) + 1) * d_model
+        num_windows = len(windows_list) if windows_list else 1
+        self.winows_linear = nn.Linear(self.d_model * (num_windows + 1), self.d_model)
 
         self.gate_ = GateMechanism(self.d_model)
         #------------------------------------------------
